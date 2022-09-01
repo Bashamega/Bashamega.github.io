@@ -44,9 +44,7 @@ body{
     margin-bottom: 50px;
     
 }
-.middle img{
-    margin-left: 25%;
-}
+
 .bottom{
     top: 100%;
 }
@@ -57,4 +55,7 @@ body{
     position:fixed;
     top: 25%;
     left:0;
+}
+.art img{
+    width:50%;
 }
