@@ -3,7 +3,7 @@
     padding:0;
 }
 body{
-    background-color: dad7cd;
+    background-color: #dad7cd;
 }
 .about img{
     width: 100%;
@@ -18,18 +18,18 @@ body{
     height: 300px;
     overflow: hidden;
     overflow-y: scroll;
-    background-color: antiquewhite;
+    background-color: #a3b18a;
 }
 .art{
     margin-bottom: 50px;
-    
+    background-color: #a3b18a;
 }
 
 .bottom{
     top: 100%;
 }
 .profiles{
-    background-color: antiquewhite;
+    background-color: #a3b18a;
     height: 200px;
     width: 100px;
     position:fixed;
@@ -37,5 +37,9 @@ body{
     left:0;
 }
 .art img{
-    width:50%;
+    width:100%;
+    height: 20%;
+}
+.text img{
+    width:200px;
 }
