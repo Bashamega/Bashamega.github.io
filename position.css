@@ -1,0 +1,23 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    position: relative;
+    
+ }
+ .top{
+     position: fixed;
+     background-color: greenyellow;
+     text-align: center;
+     top:0;
+     left:0;
+     width: 100%;
+ }
+ .about{
+     position: fixed;
+     top: 20%;
+     left:80%;
+     width: 15%;
+     height: 500px;
+     background-color: antiquewhite;
+     
+ }
