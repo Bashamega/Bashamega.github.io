@@ -15,9 +15,6 @@ body{
 }
 .text{
     margin-left: 1px;
-    height: 300px;
-    overflow: hidden;
-    overflow-y: scroll;
     background-color: #a3b18a;
 }
 .art{
