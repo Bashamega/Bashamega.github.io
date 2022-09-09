@@ -25,7 +25,7 @@ body{
 .bottom{
     top: 100%;
 }
-.profiles{
+.about{
     background-color: #a3b18a;
     height: 200px;
     width: 100px;
@@ -41,5 +41,5 @@ body{
     background-color: white;
 }
 @media(max-width:1042px){
-    .profiles{position: static;}
+    .about{position: static;}
 }
