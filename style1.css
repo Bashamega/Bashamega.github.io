@@ -33,14 +33,7 @@ body{
     top: 25%;
     left:0;
 }
-.tags{
-    background-color: #a3b18a;
-    display:flex;
-    width: 100px;
-    position:fixed;
-    top: 25%;
-    left:0;
-}
+
 .tags p{margin-right: 20px;}
 .art img{
     width:100%;
