@@ -33,7 +33,9 @@ body{
     top: 25%;
     left:0;
 }
-
+@media(max-width:1042px){
+    .profiles{position: static;}
+}
 .tags p{margin-right: 20px;}
 .art img{
     width:100%;
