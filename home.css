@@ -40,3 +40,6 @@ body{
 #flex a{
     background-color: white;
 }
+@media(max-width:1042px){
+    .profiles{position: static;}
+}
