@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1500px) {
-    about{
+    .about-responsive{
         display: block;
        position: static;
     }
