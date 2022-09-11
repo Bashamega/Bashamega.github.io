@@ -2,6 +2,7 @@
     .about-responsive{
         display: block;
        position: static;
+       position: relative;
     }
 
 }
