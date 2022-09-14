@@ -3,10 +3,10 @@
         display: block;
        position: static;
        position: relative;
-       top:20px; left:10%;width:80%;
+       top:20px; left:10%;;
     }
 
 }
 @media(max-width:1042px){
-    .about{position: static; top:20px; left:10%;width:80%;}
+    .about{position: static; top:20px; left:10%;}
 }
