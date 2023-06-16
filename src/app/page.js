@@ -17,35 +17,7 @@ export default function Home() {
     <div>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">{name}</h1>
-            <ul className="flex items-center">
-              <li>
-                <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#Projects"
-                >
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#Reviews"
-                >
-                  Reviews
-                </a>
-              </li>
-              <li>
-                <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#Contact"
-                >
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </nav>
+          
           <div className="flex flex-col items-center p-10 py-10 text-center">
             <Image
               src={image_url}
@@ -99,7 +71,7 @@ export default function Home() {
             ></img>
           </div>
         </section>
-        <hr></hr>
+        <hr className="mt-10 cursive-hr" />
         <section className="mt-10 text-center" id="Projects">
           <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-4xl">
             Projects
@@ -125,7 +97,9 @@ export default function Home() {
                 </a>
               </div>
             </div>
+            
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+
               <div className="flex-1 bg-white rounded-full p-6 text-black w-full lg:w-1/2">
                 <a href="https://microsoftedge.microsoft.com/addons/detail/cpk/okabgcamgefdfhhlpkdbkohiickenfgg">
                   <h1>Edu CPK Extension</h1>
@@ -140,6 +114,22 @@ export default function Home() {
                   <p>This is a dark mode extension for scratch.</p>
                 </a>
               </div>
+              <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="flex-1 bg-white rounded-full p-6 text-black w-full lg:w-1/2">
+                <a href="https://www.npmjs.com/package/extfilegen">
+                  <h1>ExtFileGen</h1>
+                  <p>
+                  creating the files needed to build a sensational browser extension. Designed with simplicity and efficiency in mind, ExtFileGen takes the hassle out of file generation, allowing you to focus on unleashing your creativity.
+                  </p>
+                </a>
+              </div>
+              <div className="flex-1 bg-white rounded-full p-6 text-black w-full lg:w-1/2">
+                <a href="https://github.com/Bashamega/eduquiz">
+                  <h1>DiscordBotFilesGenerator</h1>
+                  <p>discordbotfiles is an npm package that provides a command-line interface (CLI) tool for generating files for Discord bots. It simplifies the process of creating common file structures and templates necessary for building Discord bots.</p>
+                </a>
+              </div>
+            </div>
             </div>
           </div>
         </section>
@@ -229,6 +219,19 @@ export default function Home() {
             </ul>
           </div>
         </footer>
+        <style>{`
+        
+        hr {
+          height: 2px;
+          border: none;
+          background-image: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.75),
+            rgba(255, 255, 255, 0)
+          );
+        }
+      `}</style>
       </main>
     </div>
   );
