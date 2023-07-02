@@ -76,7 +76,18 @@ export default function Home() {
           <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-4xl">
             Projects
           </h2>
+          
           <div className="flex flex-wrap justify-center items-center">
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="flex-1 bg-white rounded-full p-6 text-black w-full lg:w-1/2">
+                <a href="https://web-dev-tools.vercel.app/">
+                  <h1>Web dev tools</h1>
+                  <p>
+                    WebDev Tools is a comprehensive online platform designed to empower web developers with a wide array of code samples and snippets. Whether you are a seasoned professional or just starting your journey in web development, our website provides you with a vast collection of code examples to streamline your workflow, enhance productivity, and create exceptional websites and web applications.
+                  </p>
+                </a>
+              </div>
+            </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="flex-1 bg-white rounded-full p-6 text-black w-full lg:w-1/2">
                 <a href="https://educpk.github.io/">
